@@ -1,40 +1,58 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<h2>Book Exchange System with Auto Suggestion and Book Shop</h2>
+<h3>(Scroll down to see screenshot of the project)</h3>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+This is a book exchange system built with PHP Laravel framework. Users can exchange book between them. User can submit book request after fill up a form. In the form they should mention which book they offer to exchange and which book they want with author name, genre of the book. Also they have to mention whether the offered book is old or new book.
 
-## About Laravel
+After submitting the request form if any matched offered is available they can see it in the offer post page. If any matched deal is available, then can send exchange request to that matched person. That matched person can see that exchange request in the received request page. If the user interest to that exchange deal, then he/she can accept the request. After accepting the exchange request both users can see their exchange information in the exchanged books page.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+The auto suggestion system helps users to find a perfectly matched deal to exchange book. The auto suggestion feature works to match deal depends on various conditions. First of all, the system tries to match same to same book that one is offering and other is requesting. If same to same match is not available then it checks and try to match according to same genre, same author of the book.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+There is also book shop feature available in this application. That means users can also buy product.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+To use all these features users should register/login.
 
-## Learning Laravel
+This project is built with PHP Laravel framework which maintain MVC design pattern. Forms of this project is properly validated. Middleware are used to verify different requests.
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+<h3>Screenshots of different features and pages of this application given below.</h3>
+<h3>Home page</h3>
+<img src="screenshot_images/homepage.JPG" width="850px" height="500px">
+<h3>Book exchange system</h3>
+<img src="screenshot_images/Book exchange system.JPG" width="850px" height="500px">
+<h3>Register book button</h3>
+<img src="screenshot_images/Register book button.JPG" width="850px" height="500px">
+<h3>login-registration page</h3>
+<img src="screenshot_images/login-registration page.JPG" width="850px" height="500px">
+<h3>Book exchange form</h3>
+<img src="screenshot_images/Book exchange form.JPG" width="850px" height="500px">
+<h3>Offer Post button</h3>
+<img src="screenshot_images/Offer Post button.JPG" width="850px" height="500px">
+<h3>Offer post</h3>
+<img src="screenshot_images/Offer post.JPG" width="850px" height="500px">
+<h3>send request button</h3>
+<img src="screenshot_images/send request button.JPG" width="850px" height="500px">
+<h3>send request</h3>
+<img src="screenshot_images/send request.JPG" width="850px" height="500px">
+<h3>after sending request</h3>
+<img src="screenshot_images/after sending request.JPG" width="850px" height="500px">
+<h3>list of sent request</h3>
+<img src="screenshot_images/list of sent request.JPG" width="850px" height="500px">
+<h3>received request button</h3>
+<img src="screenshot_images/received request button.JPG" width="850px" height="500px">
+<h3>list of received request</h3>
+<img src="screenshot_images/list of received request.JPG" width="850px" height="500px">
+<h3>Exchanged books button</h3>
+<img src="screenshot_images/Exchanged books button.JPG" width="850px" height="500px">
+<h3>list of exchanged book</h3>
+<img src="screenshot_images/list of exchanged book.JPG" width="850px" height="500px">
+<h3>Category product</h3>
+<img src="screenshot_images/Category product.JPG" width="850px" height="500px">
+<h3>admin panel</h3>
+<img src="screenshot_images/admin panel.JPG" width="850px" height="500px">
+<h3>add category page</h3>
+<img src="screenshot_images/add category page.JPG" width="850px" height="500px">
+<h3>manage category page</h3>
+<img src="screenshot_images/manage category page.JPG" width="850px" height="500px">
+<h3>add product form</h3>
+<img src="screenshot_images/add product form.JPG" width="850px" height="500px">
+<h3>manage product</h3>
+<img src="screenshot_images/manage product.JPG" width="850px" height="500px">
