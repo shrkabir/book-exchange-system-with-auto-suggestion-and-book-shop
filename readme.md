@@ -1,5 +1,5 @@
 <h2>Book Exchange System with Auto Suggestion and Book Shop</h2>
-<h3>(Scroll down to see screenshot of the project)</h3>
+<h3>(Scroll down to see screenshots of the project)</h3>
 
 This is a book exchange system built with PHP Laravel framework. Users can exchange book between them. User can submit book request after fill up a form. In the form they should mention which book they offer to exchange and which book they want with author name, genre of the book. Also they have to mention whether the offered book is old or new book.
 
