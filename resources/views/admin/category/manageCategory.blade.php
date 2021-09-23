@@ -7,7 +7,7 @@
 <table class="table table-bordered table-hover">
     <thead>
         <tr>
-            <th>ID</th>
+            <th>Category ID</th>
             <th>Category Name</th>
             <th>Category Description</th>
             <th>Publication Status</th>
