@@ -2,7 +2,7 @@
 @section('content')
 
 <hr/>
-<h3 class="text-center text-success">{{ Session::get('message') }}</h3>
+<h2 class="text-center text-success">{{ Session::get('message') }}</h2>
 <hr/>
 <table class="table table-bordered table-hover">
     <thead>
