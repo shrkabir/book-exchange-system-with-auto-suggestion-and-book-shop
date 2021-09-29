@@ -8,8 +8,6 @@
 
         <div class="row " style="margin-top: 50px">
 
-
-
             <div class="col-sm-12">
 
                 <table class="table" width="800">
@@ -17,7 +15,6 @@
                     <thead>
                         <tr>
                             <th>My Requested Book</th>
-
                             <th>Genre</th>
                             <th>My offered Book</th>
                             <th>Sent Date</th>
