@@ -14,8 +14,7 @@ To use all these features users should register/login.
 This project is built with PHP Laravel framework which maintain MVC design pattern. Forms of this project is properly validated. Middleware are used to verify different requests.
 
 <h3>Screenshots of different features and pages of this application given below.</h3>
-<h3>Home page</h3>
-<img src="screenshot_images/homepage.JPG" width="850px" height="500px">
+
 <h3>Book exchange system</h3>
 <img src="screenshot_images/Book exchange system.JPG" width="850px" height="500px">
 <h3>Register book button</h3>
